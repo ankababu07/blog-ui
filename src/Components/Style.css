@@ -1,0 +1,80 @@
+
+
+.Users,.UserPosts,.UserPostComments,.Posts{
+    margin:0;
+    text-align: left;
+}
+
+.links{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+    
+
+}
+
+.links li{
+    text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+   
+    
+}
+
+.links li:hover{
+background-color: #1565C0;
+color: white;
+
+
+}
+
+.links li,Link:hover{
+    color: white;
+     }
+  
+#AllUsers{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content:flex-start;
+  
+  
+
+}
+
+.usersdetails{
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+  text-decoration: none;
+  background-color: coral;
+  
+}
+
+.usersdetails li{
+  padding: 20px;
+  text-align: left;
+}
+.usersdetails li Link{
+  text-decoration: none;
+  font-size: larger;
+}
+
+@media all and (max-width: 600px) {
+  .links {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+}
+.fa-twitter{
+  font-size: 20px;
+  color: blue;
+}
